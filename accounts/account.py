@@ -1,4 +1,7 @@
+# imports an exception class
 from accounts.insufficientFundsException import InsufficientFundsException
+
+# Class definition
 class Account:
 
     # CONSTRUCTOR
@@ -19,6 +22,7 @@ class Account:
             breach_amount = self._balance - amount
             raise InsufficientFundsException(breach_amount)
 
+    # getters and setters
     def get_balance(self):
         return self._balance
 
@@ -31,10 +35,11 @@ class Account:
     def get_lastname(self):
         return self.__last_name.upper()
 
-    # overriding a built-in method
+    # overriding a built-in method to display object in readable form
     def __str__(self):
         return f"\nAccount\nFirstname: {self.get_firstname()}\nLastname: {self.get_lastname()}" \
                f"\nBalance: ${self.get_balance()}\n{'*'*30}"
 
+    # method to do operator overloading of add for objects
     def __add__(self, other):
         return self._balance + other.get_balance()
