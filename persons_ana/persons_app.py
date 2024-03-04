@@ -1,8 +1,8 @@
 # importing classes Person, Customer, Employee and InvalidSalaryException
-from persons.person import Person
-from persons.customer import Customer
-from persons.employee import Employee
-from persons.invalidSalaryException import InvalidSalaryException
+from persons_ana.person import Person
+from persons_ana.customer import Customer
+from persons_ana.employee import Employee
+from persons_ana.invalidSalaryException import InvalidSalaryException
 
 # Instantiating Customer class
 draco = Customer('Malfoy', 127, 'Borgin & Burkes')

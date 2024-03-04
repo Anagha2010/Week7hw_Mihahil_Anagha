@@ -1,7 +1,7 @@
 # importing all classes
-from accounts.account import Account
-from accounts.saving_account import SavingAccount
-from accounts.insufficientFundsException import InsufficientFundsException
+from accounts_ana.account import Account
+from accounts_ana.saving_account import SavingAccount
+from accounts_ana.insufficientFundsException import InsufficientFundsException
 
 # instantiating class SavingAccount with two objects
 harry_acc = SavingAccount(2000, 'Harry', 'Potter')

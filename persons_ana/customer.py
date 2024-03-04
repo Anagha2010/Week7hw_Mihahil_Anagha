@@ -1,5 +1,5 @@
 # import base class
-from persons.person import Person
+from persons_ana.person import Person
 
 # class definition
 class Customer(Person):

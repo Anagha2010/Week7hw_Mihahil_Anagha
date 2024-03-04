@@ -1,6 +1,6 @@
 # importing base class and used class for exception
-from accounts.account import Account
-from accounts.insufficientFundsException import InsufficientFundsException
+from accounts_ana.account import Account
+from accounts_ana.insufficientFundsException import InsufficientFundsException
 
 # Class definition
 class SavingAccount(Account):

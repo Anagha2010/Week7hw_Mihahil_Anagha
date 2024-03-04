@@ -1,5 +1,5 @@
 # imports an exception class
-from accounts.insufficientFundsException import InsufficientFundsException
+from accounts_ana.insufficientFundsException import InsufficientFundsException
 
 # Class definition
 class Account:

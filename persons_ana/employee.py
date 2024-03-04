@@ -1,6 +1,6 @@
 # importing base class and the used exception class
-from persons.person import Person
-from persons.invalidSalaryException import InvalidSalaryException
+from persons_ana.person import Person
+from persons_ana.invalidSalaryException import InvalidSalaryException
 
 # class definition
 class Employee(Person):
